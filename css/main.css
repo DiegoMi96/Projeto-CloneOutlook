@@ -1,0 +1,121 @@
+:root {
+    --azul: #3d57e7;
+    --branco: rgb(253, 244, 244);
+}
+
+*{
+    margin: 3px;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/img/tela1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+
+    margin-bottom: 250px;
+    height:400px;
+    justify-content: center;
+    
+}
+
+boby {
+    background: var(--azul);
+    font-family:  Arial, Helvetica, sans-serif ;
+    color: rgb(61, 93, 233);
+}
+
+header .container {
+    background-color: rgba(223, 213, 208, 0.397);
+   
+} 
+header .container {
+    display: flex;
+    align-items: center;
+    
+    font-size: 16px;
+    
+}
+
+header .logo{
+    margin-left: 150px;
+    color: var(--branco) ;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    
+}
+
+.principal {
+    height: 350px;
+    margin-left: 150px;
+    font-size: 33px;
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.principal .descriçao {
+    margin-top: 300px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.principal .descriçao1 {
+    font-size: 20px;
+    color:white;
+
+}
+
+.botao{
+    margin-left: 258px;
+    
+    background-color: transparent;
+    border-color: white;
+    color:white;
+
+    padding: 10px 40px;
+    margin-right: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+
+    cursor: pointer;
+}
+
+.botao1{
+    background-color: var(--branco);
+    border-color: white;
+    color: var(--azul);
+
+    padding: 10px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+
+
+    cursor: pointer;
+}
+
+.botao2{
+    background-color: var(--azul);
+    border: none;
+    color:white;
+
+    margin-left: 228px;
+    margin-right:10px;
+    padding: 12px 144px;
+    font-size: 15px;
+
+    border-radius: 5px;
+    border-width: 1px;
+
+    cursor: pointer;
+}
+
